@@ -7,7 +7,7 @@ def loop_iterator(number_of_times)
     number_of_times += 1
     puts phrase 
   end
-  if number_of_times >= 7
+  if number_of_times > 7
     break
 end
 
