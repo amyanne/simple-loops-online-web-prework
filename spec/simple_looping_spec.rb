@@ -4,7 +4,7 @@ describe 'Loops' do
   before(:each) do
     @looping_string = "Welcome to Flatiron School's Web Development Course!\nWelcome to Flatiron School's Web Development Course!\nWelcome to Flatiron School's Web Development Course!\nWelcome to Flatiron School's Web Development Course!\nWelcome to Flatiron School's Web Development Course!\nWelcome to Flatiron School's Web Development Course!\nWelcome to Flatiron School's Web Development Course!\n"
   end
-end
+
   describe 'loop' do
     it "prints out Welcome to Flatiron School\'s Web Development Course! 7 times" do
       expect{ loop_iterator(7) }.to output(@looping_string).to_stdout
