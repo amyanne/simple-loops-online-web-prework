@@ -8,7 +8,7 @@ def loop_iterator(number_of_times)
     puts phrase 
   end
   break if number_of_times == 7
-end
+
 
 end
 
